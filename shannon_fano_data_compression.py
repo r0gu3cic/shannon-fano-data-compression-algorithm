@@ -1,6 +1,8 @@
+#!/usr/bin/env python3
+
 from code_decode_functions import *
 while True:
-    print('''1-Encode text using shannon fano algorith
+    print('''1-Encode text using Shannon-Fano algorithm
 2-Decode encoded text
 3-Exit''')
     answer=input()

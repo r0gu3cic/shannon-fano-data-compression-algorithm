@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+# Function that is used for text decoding
 def decode(code):
     i=0
     text=''
@@ -129,6 +132,8 @@ def decode(code):
             pattern_in_code=''
             continue
     print('Decoded text:\n'+text)
+
+# Function that is used for text coding
 def code(text):
     i=0
     code=''
